@@ -13,6 +13,9 @@ angular.module('oracApp', ['ui.router'])
     templateUrl: './templates/anti-oxidants.html',
     url:'/anti-oxidants',
     controller: 'oracCtrl'
+  }).state('recomendations', {
+    templateUrl: './templates/recomendations.html',
+    url: '/recomendations'
   }).state('contact', {
     templateUrl:'./templates/contact.html',
     url: '/contact'

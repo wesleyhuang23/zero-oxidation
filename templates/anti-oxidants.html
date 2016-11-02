@@ -22,11 +22,22 @@
     <div class="about-orac-text" >
     <p class="text-box">ORAC is an acronym for "Oxygen Radical Absorbtion Capacity". It is the value given to certain foods and supplments indicating the absorption potential of free radicals.</p>
 
-    <h3>Top 100 foods with the highest ORAC values</h3>
+    <h3>Top 50 foods with the highest ORAC values</h3>
     <input placeholder="Search by name" ng-model="name">
     <div class="orac-list" ng-repeat="food in orac | filter: name">
       <br>
-    {{food.name}}{{food.orac}}
+      <div class="table">
+      <div class="food-col">
+        <a href="{{food.link}}">{{food.name}}</a>
+        <br>
+      </div>
+      <div class="orac-col">
+        {{food.orac}}
+      </div>
+
+    </div>
+
+
   </div>
   </div>
     </div>

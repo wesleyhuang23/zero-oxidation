@@ -24,6 +24,7 @@ footer{
 }
 .nav-items {
   width: 80vw;
+  text-decoration: none;
 }
 
 ul li:hover{
@@ -49,7 +50,7 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  height: 500px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;

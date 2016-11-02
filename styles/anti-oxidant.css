@@ -35,9 +35,25 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 200px;
+  padding-bottom: 900px;
 }
 
 .about-orac-text h3{
+  text-decoration: underline;
+}
+
+.table{
+  width: 325px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.table:hover{
+  background-color: #F1C53C;
+}
+
+.table .food-col:hover{
   text-decoration: underline;
 }
