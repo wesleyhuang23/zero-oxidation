@@ -1,0 +1,1 @@
+angular.module("oracApp",["ui.router"]).config(function(e,t){e.otherwise("/"),t.state("home",{templateUrl:"./templates/home.html",url:"/"})});
