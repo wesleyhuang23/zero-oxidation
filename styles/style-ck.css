@@ -5,6 +5,7 @@
 
 a{
   text-decoration: none;
+  color: black;
 }
 
 body{
@@ -14,9 +15,12 @@ body{
 footer{
   background-color: #EEECED;
   height: 8vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 0px;
 }
 .nav-items {
   width: 80vw;
@@ -58,6 +62,7 @@ ul {
 
 hr{
   width: 400px;
+  color: black;
 }
 
 .mission-statement{
@@ -65,4 +70,9 @@ hr{
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  background-color: #F1C53C;
+  padding-bottom: 500px;
+}
+
+.text-box{
 }
