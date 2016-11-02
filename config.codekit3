@@ -17,6 +17,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/hilltop-hotel-hunza.jpg": {
+		"ft": 16384,
+		"iS": 47195,
+		"oA": 0,
+		"oAP": "\/img\/hilltop-hotel-hunza.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/photo-1447077183867-5f71d71aee9f.jpeg": {
 		"ft": 16384,
 		"iS": 1512081,
@@ -198,6 +206,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/styles\/oxidation-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/styles\/recomendation-ck.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/styles\/recomendation-ck-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
