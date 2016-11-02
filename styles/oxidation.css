@@ -39,9 +39,22 @@ hr{
   padding-top: 50px;
 }
 
-.good-news{
-
+.about-free-radical{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
+.about-free-radical ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-free-radical h3{
+  text-decoration: underline;
+}
+
 
 .about-good-news{
   display: flex;

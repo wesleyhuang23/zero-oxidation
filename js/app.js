@@ -9,6 +9,10 @@ angular.module('oracApp', ['ui.router'])
   }).state('oxidation',{
     templateUrl:'./templates/oxidation.html',
     url: '/oxidation'
+  }).state('anti-oxidants',{
+    templateUrl: './templates/anti-oxidants.html',
+    url:'/anti-oxidants',
+    controller: 'oracCtrl'
   }).state('contact', {
     templateUrl:'./templates/contact.html',
     url: '/contact'
