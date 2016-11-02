@@ -14,7 +14,7 @@ body{
 
 footer{
   background-color: #EEECED;
-  height: 8vh;
+  height: 10vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -26,6 +26,10 @@ footer{
   width: 80vw;
 }
 
+ul li:hover{
+  border: 2px solid black;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -33,6 +37,10 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
+}
+
+li {
+  padding: 5px;
 }
 
 .image-header{
@@ -50,7 +58,7 @@ ul {
 }
 
 .image-header h1{
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bolder;
   color: white;
   border: 5px solid white;
@@ -61,7 +69,7 @@ ul {
 }
 
 hr{
-  width: 400px;
+  width: 500px;
   color: black;
 }
 
@@ -70,9 +78,22 @@ hr{
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  background-color: #F1C53C;
-  padding-bottom: 500px;
+  padding-top: 50px;
 }
 
 .text-box{
+  width: 500px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.mission-text{
+  display: flex;
+  justify-content: center;
+}
+
+.about-about{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 150px;
 }

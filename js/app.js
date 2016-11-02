@@ -6,5 +6,8 @@ angular.module('oracApp', ['ui.router'])
   $stateProvider.state('home', {
     templateUrl: './templates/home.html',
     url :'/'
+  }).state('oxidation',{
+    templateUrl:'./templates/oxidation.html',
+    url: '/oxidation'
   });
 });

@@ -9,9 +9,25 @@
 	],
 "creatorBuild": "25390",
 "files": {
+	"\/img\/baharat.jpg": {
+		"ft": 16384,
+		"iS": 1096551,
+		"oA": 0,
+		"oAP": "\/img\/baharat.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/photo-1447077183867-5f71d71aee9f.jpeg": {
 		"ft": 16384,
 		"iS": 1512081,
+		"oA": 0,
+		"oAP": "\/img\/photo-1447077183867-5f71d71aee9f.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/photo-1447077183867-5f71d71aee9f.jpg": {
+		"ft": 16384,
+		"iS": 1143462,
 		"oA": 0,
 		"oAP": "\/img\/photo-1447077183867-5f71d71aee9f.jpg",
 		"oF": 0,
@@ -33,6 +49,14 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/photo-1470087167738-6aa485ff65dc.jpg": {
+		"ft": 16384,
+		"iS": 4172852,
+		"oA": 0,
+		"oAP": "\/img\/photo-1470087167738-6aa485ff65dc.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -44,6 +68,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/app-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -83,6 +116,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/styles\/contact-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/styles\/oxidation-ck.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/styles\/oxidation-ck-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
