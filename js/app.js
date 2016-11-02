@@ -9,5 +9,8 @@ angular.module('oracApp', ['ui.router'])
   }).state('oxidation',{
     templateUrl:'./templates/oxidation.html',
     url: '/oxidation'
+  }).state('contact', {
+    templateUrl:'./templates/contact.html',
+    url: '/contact'
   });
 });
