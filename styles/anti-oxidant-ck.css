@@ -22,3 +22,22 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.about-orac{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-orac-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 200px;
+}
+
+.about-orac-text h3{
+  text-decoration: underline;
+}

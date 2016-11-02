@@ -2,4 +2,36 @@
   <div class="image-header-orac">
     <h1>ANTI-OXIDANTS</h1>
   </div>
+  <div class="about-oxidation">
+    <h1>What are Anti-Oxidants?</h1>
+    <hr>
+    <div class="about-oxi">
+    <p class="text-box">Anti-oxidants are molecules that inhibit the oxidation of other molecules. It does this by providing the free radical molecule with one of its own electrons rendering it harmless. This works with the anti-oxidants our bodies make and the ones we take in our diet</p>
+  </div>
+
+  <div class="about-oxidation">
+    <h1>How do Anti-Oxidants work?</h1>
+    <hr>
+    <div class="about-oxi">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lG3OOXIXvxw" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <div class="about-orac">
+    <h1>What is ORAC?</h1>
+    <hr>
+    <div class="about-orac-text" >
+    <p class="text-box">ORAC is an acronym for "Oxygen Radical Absorbtion Capacity". It is the value given to certain foods and supplments indicating the absorption potential of free radicals.</p>
+
+    <h3>Top 100 foods with the highest ORAC values</h3>
+    <input placeholder="Search by name" ng-model="name">
+    <div class="orac-list" ng-repeat="food in orac | filter: name">
+      <br>
+    {{food.name}}{{food.orac}}
+  </div>
+  </div>
+    </div>
+</div>
+
+
+
 </div>

@@ -1,0 +1,1 @@
+angular.module("oracApp").controller("oracCtrl",function(a,o){a.orac=o.oracData});

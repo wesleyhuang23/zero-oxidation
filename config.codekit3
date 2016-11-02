@@ -11,11 +11,11 @@
 "files": {
 	"\/img\/baharat.jpg": {
 		"ft": 16384,
-		"iS": 1096551,
+		"iS": 163761,
 		"oA": 0,
 		"oAP": "\/img\/baharat.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/img\/photo-1447077183867-5f71d71aee9f.jpeg": {
 		"ft": 16384,
@@ -48,6 +48,14 @@
 		"oAP": "\/img\/photo-1466699514193-d2327ed2cccb.jpg",
 		"oF": 0,
 		"opt": 1
+		},
+	"\/img\/photo-1466699514193-d2327ed2cccb.jpg": {
+		"ft": 16384,
+		"iS": 404913,
+		"oA": 0,
+		"oAP": "\/img\/photo-1466699514193-d2327ed2cccb.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/img\/photo-1470087167738-6aa485ff65dc.jpeg": {
 		"ft": 16384,
@@ -107,6 +115,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/styles\/anti-oxidant-ck.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/styles\/anti-oxidant-ck-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/styles\/anti-oxidant.css": {
 		"aP": 0,
 		"bl": 0,
@@ -114,6 +132,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/styles\/anti-oxidant-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/styles\/contact-ck.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/styles\/contact-ck-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
