@@ -39,6 +39,14 @@
 		"oA": 0,
 		"oAP": "\/img\/photo-1450650795614-745f80d91080.jpg",
 		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/photo-1450650795614-745f80d91080.jpg": {
+		"ft": 16384,
+		"iS": 246134,
+		"oA": 0,
+		"oAP": "\/img\/photo-1450650795614-745f80d91080.jpg",
+		"oF": 0,
 		"opt": 0
 		},
 	"\/img\/photo-1466699514193-d2327ed2cccb.jpeg": {
@@ -93,6 +101,24 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/min\/service-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/min\/service-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/orac\/min\/oracCtrl-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/orac\/min\/min\/oracCtrl-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -229,10 +255,10 @@
 		"oAP": "\/templates\/oxidation.html",
 		"oF": 0
 		},
-	"\/templates\/recomendation.html": {
+	"\/templates\/recomendations.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/templates\/recomendation.html",
+		"oAP": "\/templates\/recomendations.html",
 		"oF": 0
 		}
 	},
