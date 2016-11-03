@@ -4,7 +4,7 @@ angular.module('oracApp', ['ui.router'])
   $urlRouterProvider.otherwise('/');
 
   $stateProvider.state('home', {
-    
+
     templateUrl: './templates/home.html',
     url :'/'
   }).state('oxidation',{
@@ -23,6 +23,7 @@ angular.module('oracApp', ['ui.router'])
 
   }).state('contact', {
     templateUrl:'./templates/contact.html',
-    url: '/contact'
+    url: '/contact',
+    controller: 'contactCtrl'
   });
 });

@@ -9,16 +9,65 @@
   justify-content: center;
   align-items: center;
   filter:grayscale(100%);
-  background: linear-gradient( rgba(0, 0, 0, 0.5));
+  overflow: hidden;
+  background-attachment: fixed;
 }
 
 .image-header-contact h1{
   font-size: 70px;
   font-weight: bolder;
   color: white;
-  border: 5px solid white;
+  border-bottom: 5px solid white;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.name{
+  width: 800px;
+}
+.contact-wrapper{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  width: 600px;
+}
+.contact-form input{
+  padding: 10px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+.contact-form h3{
+  text-decoration: underline;
+}
+
+.contact-form textarea{
+  font-size: 30px;
+  resize: none;
+  overflow: hidden;
+  padding-bottom: 200px;
+  outline: 0;
+}
+
+.button-wrapper{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.button-wrapper h6{
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }

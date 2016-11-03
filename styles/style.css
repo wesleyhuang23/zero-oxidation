@@ -50,7 +50,7 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  height: 850px;
+  height: 870px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +71,17 @@ li {
   padding-bottom: 10px;
   position: absolute;
 }
+
+.down-indicator{
+  position: absolute;
+  bottom: 10px;
+  animation: blink 2s ease-in infinaite;
+}
+
+.down-indicator img{
+  height: 60px;
+}
+
 
 hr{
   width: 500px;
@@ -99,5 +110,12 @@ hr{
 .about-about{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding-bottom: 150px;
+}
+
+@keyframes blink {
+  from, to {opacity: 1}
+  50% { opacity: 0}
 }

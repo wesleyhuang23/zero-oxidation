@@ -2,4 +2,24 @@
   <div class="image-header-contact">
     <h1>CONTACT</h1>
   </div>
+  <div class="contact-wrapper">
+  <div class="contact-form">
+    <h3> CONTACT FORM</h3>
+    First Name:
+    <input placeholder="First Name" ng-model="fn">
+    <br>
+    Last Name:
+    <input placeholder="Last Name" ng-model="ln">
+    <br>
+    Email:
+    <input placeholder="Email" ng-model="email">
+    <br>
+    Message:
+    <textarea placeholder="Message" ng-model="msg">
+    </textarea>
+    <div class="button-wrapper" ng-click="storeMsg(fn, ln, email, msg)">
+    <h6>SUBMIT</h6>
+  </div>
+  </div>
+</div>
 </div>
