@@ -25,7 +25,7 @@
 }
 
 hr{
-  width: 500px;
+  width: 700px;
   color: black;
 }
 
@@ -38,6 +38,11 @@ hr{
 
 .about-oxidation h1{
   padding-top: 50px;
+  font-size: 50px;
+}
+
+.about-oxidation p{
+  font-size: 20px
 }
 
 .about-free-radical{

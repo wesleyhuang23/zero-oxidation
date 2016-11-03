@@ -101,8 +101,16 @@ hr{
   padding-top: 50px;
 }
 
+.mission-statement h1{
+  font-size: 50px;
+}
+
+.mission-statement p{
+  font-size: 20px;
+}
+
 .text-box{
-  width: 500px;
+  width: 600px;
   text-align: center;
   padding-bottom: 40px;
 }
