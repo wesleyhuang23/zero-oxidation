@@ -14,7 +14,7 @@ body{
 
 footer{
   background-color: #EEECED;
-  height: 10vh;
+  height: 90px;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -72,14 +72,19 @@ li {
   position: absolute;
 }
 
+@keyframes blink {
+  50% { opacity: 0}
+}
+
 .down-indicator{
   position: absolute;
   bottom: 10px;
-  animation: blink 2s ease-in infinaite;
+
 }
 
 .down-indicator img{
   height: 60px;
+    animation: blink 2s ease-in infinaite;
 }
 
 
@@ -115,7 +120,55 @@ hr{
   padding-bottom: 150px;
 }
 
-@keyframes blink {
-  from, to {opacity: 1}
-  50% { opacity: 0}
+.hamburger{
+  background-image: url('../icons/burger-menu.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+.close{
+  width: 20px;
+  height: 20px;
+  background-image: url('../icons/close-x.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: 60px;
+  top:105px;
+  cursor: pointer;
+}
+
+.nav-on-phone{
+  position: absolute;
+}
+
+.nav-on-phone ul{
+  flex-direction: column;
+  font-size: 25px;
+  width: 200px;
+  height: 330px;
+  position: absolute;
+  top:100px;
+  left: 50px;
+  font-size: 20px;
+}
+@media (max-width: 930px){
+  .nav-items{
+    display: none;
+  }
+  .hamburger{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    cursor: pointer;
+  }
+  footer{
+    height: 90px;
+    display: block;
+  }
+  .nav-on-phone
+  }
 }
