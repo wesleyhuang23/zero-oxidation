@@ -256,4 +256,17 @@ angular.module('oracApp').service('service', function(){
 
   console.log(this.oracData.length);
 
+  var msgData = [];
+
+  this.storeMsg = function(fn, ln, email, msg){
+    var msgObj = {};
+    msgObj.firstName = fn;
+    msgObj.lastName = ln;
+    msgObj.email = email;
+    msgObj.message = msg;
+    console.log(msgObj);
+    msgData.push(msgObj);
+    console.log(msgData);
+  };
+
 });
