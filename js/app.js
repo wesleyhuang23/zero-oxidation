@@ -17,10 +17,10 @@ angular.module('oracApp', ['ui.router'])
     url:'/anti-oxidants',
     controller: 'oracCtrl'
 
-  }).state('recomendations', {
-    templateUrl: './templates/recomendations.html',
-    url: '/recomendations'
-
+  }).state('recommendations', {
+    templateUrl: './templates/recommendations.html',
+    url: '/recommendations',
+    controller: 'recommendationsCtrl'
   }).state('contact', {
     templateUrl:'./templates/contact.html',
     url: '/contact',

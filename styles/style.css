@@ -14,7 +14,7 @@ body{
 
 footer{
   background-color: #EEECED;
-  height: 90px;
+  height: 10vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -27,8 +27,8 @@ footer{
   text-decoration: none;
 }
 
-ul li:hover{
-  border: 2px solid black;
+.nav-items ul li:hover{
+  border-bottom: 2px solid black;
 }
 
 ul {
@@ -50,7 +50,7 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  height: 870px;
+  height: 92vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,7 +144,7 @@ hr{
   background-position: center;
   position: absolute;
   right: 60px;
-  top:105px;
+  top:1050000px;
   cursor: pointer;
 }
 
@@ -158,9 +158,13 @@ hr{
   width: 200px;
   height: 330px;
   position: absolute;
-  top:100px;
+  top:1000000px;
   left: 50px;
   font-size: 20px;
+}
+
+li {
+  width:auto;
 }
 @media (max-width: 930px){
   .nav-items{
@@ -174,9 +178,20 @@ hr{
     cursor: pointer;
   }
   footer{
-    height: 90px;
+    height: 10vh;
     display: block;
   }
-  .nav-on-phone
+  .nav-on-phone ul{
+    position: absolute;
+    top:100px;
+    left: 50px;
+  }
+  ul li:hover{
+    text-decoration: underline;
+  }
+  .close{
+    position: absolute;
+    right: 60px;
+    top:105px;
   }
 }

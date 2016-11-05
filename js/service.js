@@ -1,4 +1,4 @@
-angular.module('oracApp').service('service', function(){
+angular.module('oracApp').service('service', function($http){
 
   this.oracData = [
     {
@@ -255,7 +255,7 @@ angular.module('oracApp').service('service', function(){
   ];
 
   console.log(this.oracData.length);
-
+//Message
   var msgData = [];
 
   this.storeMsg = function(fn, ln, email, msg){
@@ -268,5 +268,21 @@ angular.module('oracApp').service('service', function(){
     msgData.push(msgObj);
     console.log(msgData);
   };
+//message
+
+//AppleGate api
+
+this.getAG = function(){
+  return $http({
+    Method: 'Get',
+    url: 'http://api.nal.usda.gov/ndb/search/?format=json&q=applegate+bacon&sort=n&max=25&offset=0&api_key=hDJWcpDR1mfOy7dSIoxMPlKmLDZwEpqiAnSVI1fA'
+  }).then(function(response){
+    console.log(response.data.list.item);
+    return response.data.list.item;
+  });
+};
+
+this.getAG();
+
 
 });

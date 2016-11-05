@@ -70,14 +70,10 @@ hr{
 .about-bad-news{
   display: flex;
   justify-content: center;
-
+  padding-bottom: 150px;
 }
 
 .about-oxi{
   display: flex;
   justify-content: center;
-}
-
-.about-bad-news{
-  padding-bottom: 200px;
 }
