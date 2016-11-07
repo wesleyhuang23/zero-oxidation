@@ -31,6 +31,22 @@
   align-items: center;
   padding-bottom: 50px;
 }
+.list-container{
+/*  border: 1px solid red;*/
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.food-search input{
+  width: 200px;
+  font-size: 25px;
+  display: none;
+}
+.list-wrapper{
+  text-align: left;
+  width: auto;
+/*  border: 1px solid green;*/
+}
 
 .text-box span{
   font-weight: bold;
@@ -59,5 +75,14 @@ h2{
 @media (max-width: 1200px){
   .image-header-recomendations h1{
     font-size: 50px;
+  }
+  .list-wrapper{
+    width: 600px;
+  }
+}
+
+@media (max-width: 950px){
+  .list-wrapper p {
+    font-size: 15px;
   }
 }

@@ -20,16 +20,17 @@
                 When grocery shopping it is important to avoid foods that contain free radicals. It's best to avoid processed meats and obtain organic foods. Increase intake of foods that have a good radical absorbstion value. The goal is to reduce free radicals and increase anti-oxidants.</p>
         </div>
         <h2 ng-click="show = !show">List of Organic Food Items</h2>
+        <div class="food-search">
+        <input placeholder="Search by name" ng-model="name">
+      </div>
+        <div class="list-container">
+
         <div class="list-wrapper" ng-show="show">
-        <div class="list" ng-repeat="item in foods">
+        <div class="list" ng-repeat="item in foods | filter: name">
           <p>-{{item.name}}</p>
           <br>
         </div>
-        <div class="ham-list" ng-repeat="food in ham">
-          <p>-{{food.name}}</p>
-          <br>
-        </div>
-        <p>
+      <!--  <p>
         -YOGI TEAS SUPER ANTIOXIDANT GREEN TEA, UPC 076950450363
         <br>
         <br>
@@ -52,8 +53,9 @@
         <br>
         <br>
         -SIMPLY ORGANIC BASIL CERTIFIED ORGANIC, UPC 089836185129
-      </p>
+      </p>-->
       </div>
+    </div>
         <br>
         <div class="show-btn" ng-click="show = !show">
           Show List

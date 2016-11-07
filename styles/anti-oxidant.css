@@ -84,9 +84,10 @@ iframe{
     font-size: 20px;
   }
   .table {
-    width: 400px;
+    width: 300px;
+    font-size: 15px;
   }
   .search-box {
-    font-size: 20px;
+    font-size: 15px;
   }
 }

@@ -200,6 +200,9 @@ li {
     top:100px;
     left: 50px;
   }
+  .nav-on-phone li{
+    font-size: 18px;
+  }
   ul li:hover{
     text-decoration: underline;
   }

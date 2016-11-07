@@ -18,7 +18,11 @@
             Message:
             <textarea placeholder="Message" ng-model="msg"></textarea>
             <div class="button-wrapper" ng-click="storeMsg(fn, ln, email, msg)">
-                <h6>SUBMIT</h6>
+                <h6 ng-click="show = !show">SUBMIT</h6>
+            </div>
+            <div class="msg-indicator" ng-show="show">
+              <br>
+              <p>Thank you for your message! We will respond within 1 business day.</p>
             </div>
         </div>
     </div>
