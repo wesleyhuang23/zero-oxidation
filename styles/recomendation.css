@@ -29,9 +29,28 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 150px;
+  padding-bottom: 50px;
 }
 
 .text-box span{
   font-weight: bold;
+}
+
+.show-btn{
+  cursor: pointer;
+}
+
+.show-btn:hover{
+  text-decoration: underline;
+}
+#final-message{
+  padding-bottom: 100px;
+}
+
+p{
+  margin: 0;
+  font-size: 17px;
+}
+h2{
+  text-decoration: underline;
 }

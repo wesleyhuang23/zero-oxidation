@@ -272,17 +272,16 @@ angular.module('oracApp').service('service', function($http){
 
 //AppleGate api
 
-this.getAG = function(){
+this.getFoods = function(){
   return $http({
-    Method: 'Get',
-    url: 'http://api.nal.usda.gov/ndb/search/?format=json&q=applegate+bacon&sort=n&max=25&offset=0&api_key=hDJWcpDR1mfOy7dSIoxMPlKmLDZwEpqiAnSVI1fA'
+    method: 'Get',
+    url: 'http://www.upcitemdb.com/api/prod/trial/search?s=yogi'
   }).then(function(response){
-    console.log(response.data.list.item);
-    return response.data.list.item;
+    console.log(response.data);
+    return response.data;
   });
 };
 
-this.getAG();
 
 
 });
