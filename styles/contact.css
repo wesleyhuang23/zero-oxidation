@@ -71,3 +71,21 @@
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
+@media (max-width: 1200px){
+  .image-header-contact h1{
+    font-size: 50px;
+  }
+  .contact-form{
+    font-size: 25px;
+  }
+  .contact-form input{
+    font-size: 15px;
+  }
+  .contact-form textarea{
+    font-size: 15px;
+  }
+  .button-wrapper{
+    width: 150px;
+  }
+}

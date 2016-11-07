@@ -24,11 +24,6 @@
   padding-bottom: 10px;
 }
 
-hr{
-  width: 700px;
-  color: black;
-}
-
 .about-oxidation{
   display: flex;
   justify-content: center;
@@ -76,4 +71,17 @@ hr{
 .about-oxi{
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 1200px){
+  .image-header-oxidation h1{
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 950px){
+  .about-oxidation h1{
+    font-size: 35px;
+    transition: slow;
+  }
 }

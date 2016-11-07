@@ -64,3 +64,29 @@
 .search-box{
   font-size: 30px;
 }
+iframe{
+  width: 650px;
+  height: 355px;
+}
+
+@media (max-width: 1200px){
+  .image-header-orac h1{
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 950px){
+  iframe{
+  width: 530px;
+  height: 300px;
+  }
+  .about-orac-text h3{
+    font-size: 20px;
+  }
+  .table {
+    width: 400px;
+  }
+  .search-box {
+    font-size: 20px;
+  }
+}

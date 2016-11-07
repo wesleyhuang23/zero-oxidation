@@ -55,3 +55,9 @@ h2{
   text-decoration: underline;
   cursor: pointer;
 }
+
+@media (max-width: 1200px){
+  .image-header-recomendations h1{
+    font-size: 50px;
+  }
+}

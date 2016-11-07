@@ -42,6 +42,7 @@ ul {
 
 li {
   padding: 5px;
+  letter-spacing: 5px;
 }
 
 .image-header{
@@ -78,7 +79,7 @@ li {
 
 .down-indicator{
   position: absolute;
-  bottom: 10px;
+  bottom: 25px;
 
 }
 
@@ -89,7 +90,7 @@ li {
 
 
 hr{
-  width: 500px;
+  width: 700px;
   color: black;
 }
 
@@ -125,7 +126,7 @@ hr{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 .hamburger{
@@ -166,7 +167,20 @@ hr{
 li {
   width:auto;
 }
-@media (max-width: 930px){
+@media (max-width: 1200px){
+  li {
+    padding: 5px;
+    letter-spacing: 1px;
+  }
+  .image-header h1{
+    font-size: 50px;
+    margin-top: 120px;
+  }
+  .down-indicator img{
+    height: 40px;
+  }
+}
+@media (max-width: 950px){
   .nav-items{
     display: none;
   }
@@ -193,5 +207,14 @@ li {
     position: absolute;
     right: 60px;
     top:105px;
+  }
+  hr{
+    width: 500px;
+  }
+  .mission-statement h1{
+    font-size: 35px;
+  }
+  .text-box{
+    width: 500px;
   }
 }
