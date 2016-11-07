@@ -581,7 +581,7 @@ angular.module('oracApp').service('service', function($http){
 this.getFoods = function(){
   return $http({
     method: 'Get',
-    url: 'http://api.nal.usda.gov/ndb/search/?format=json&q=organic&sort=n&max=100&offset=14&api_key=hDJWcpDR1mfOy7dSIoxMPlKmLDZwEpqiAnSVI1fA'
+    url: 'https://api.nal.usda.gov/ndb/search/?format=json&q=organic&sort=n&max=100&offset=14&api_key=hDJWcpDR1mfOy7dSIoxMPlKmLDZwEpqiAnSVI1fA'
   }).then(function(response){
     console.log(response.data.list.item);
     return response.data.list.item;
