@@ -32,7 +32,7 @@
   padding-bottom: 50px;
 }
 .list-container{
-/*  border: 1px solid red;*/
+ /*border: 1px solid red;*/
   display: flex;
   justify-content: center;
   padding-top: 50px;
@@ -43,8 +43,8 @@
   display: none;
 }
 .list-wrapper{
+  width: 900px;
   text-align: left;
-  width: auto;
 /*  border: 1px solid green;*/
 }
 

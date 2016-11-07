@@ -26,7 +26,7 @@ angular.module('oracApp', ['ui.router'])
     url: '/contact',
     controller: 'contactCtrl'
   }).state('admin', {
-    templateUrl:'./templates/contact.html',
+    templateUrl:'./templates/admin.html',
     url: '/admin',
     controller:'adminCtrl'
   });
